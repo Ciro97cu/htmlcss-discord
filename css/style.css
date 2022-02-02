@@ -22,18 +22,14 @@ body {
 .c-black {
     color: black;
 }
-
-.tdn {
-    text-decoration: none;
-}
 /* fine */
 
 /* Regole css hover per i button e link */
-a:hover {
+.header-btn a:hover {
     color: #3161e0;
 }
 
-li:hover {
+header .header-ul ul li:hover {
     text-decoration: underline;
 }
 /* fine */
@@ -92,6 +88,9 @@ header .header-ul ul li {
     font-size: 1rem;
     margin: 0 15px;
 }
+header .header-ul ul li a {
+    text-decoration: none;
+}
 /* fine */
 
 /* Regole css button accedi */
@@ -104,5 +103,6 @@ header .header-btn {
     font-size: 0.8rem;
     padding: 10px 15px;
     border-radius: 20px;
+    text-decoration: none;
 }
 /* fine */
