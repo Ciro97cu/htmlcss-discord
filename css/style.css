@@ -25,6 +25,16 @@ body {
 
 .c-wave {
     opacity: 0.1;
+    margin-bottom: -0.4vh;
+}
+
+.c-wave-w {
+    opacity: 0.1;
+    transform: rotate(180deg);
+}
+
+.second-section {
+    background-color: #e6e6e6;
 }
 /* fine */
 
@@ -54,12 +64,8 @@ header .header-ul ul li:hover {
     width: 30%;
 }
 
-.w-70 {
-    width: 70%;
-}
-
-.w-50 {
-    width: 50%;
+.w-60 {
+    width: 60%;
 }
 /* fine */
 
@@ -177,7 +183,7 @@ a.margin-l {
 
 /* Regole css main first section */
 main section {
-    height: 50vh;
+    height: 70vh;
     position: relative;
 }
 
@@ -203,4 +209,12 @@ section .aside-txt h2 {
 
 section .aside-txt p {
     font-size: 1.3rem;
+}
+
+.margin-txt-l {
+    margin-left: 10%;
+}
+
+.margin-txt-r {
+    margin-right: 10%;
 }
