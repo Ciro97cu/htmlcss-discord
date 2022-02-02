@@ -25,7 +25,7 @@ body {
 /* fine */
 
 /* Regole css hover per i button e link */
-.header-btn a:hover {
+.header-btn a:hover, .header-bottom a:hover {
     color: #3161e0;
 }
 
@@ -36,7 +36,7 @@ header .header-ul ul li:hover {
 
 /* Regola css per centrare il contenuto */
 .centering {
-    width: 65%;
+    width: 70%;
     margin: auto;
 }
 /* fine */
@@ -65,8 +65,7 @@ header .header-ul ul li:hover {
 
 /* Regole css header-top */
 .header-top {
-    height: 6vh;
-    line-height: 6vh;
+    padding: 2vh 0;
     background-color: #3161e0;
 }
 
@@ -104,5 +103,62 @@ header .header-btn {
     padding: 10px 15px;
     border-radius: 20px;
     text-decoration: none;
+}
+/* fine */
+
+/* Regole css header-bottom */
+
+header .header-bottom { 
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    height: 35vh;
+    position: relative;
+}
+
+.header-bottom .centering {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/* fine */
+
+/* Regole css per il titolo h1 */
+header .header-bottom h1 {
+    text-align: center;
+    font-size: 4rem;
+    margin-bottom: 3vh;
+    
+}
+/* fine */
+
+/* Regole css per il paragrafo  */
+header .header-bottom p {
+    text-align: center;
+    font-size: 1.3rem;
+    margin-bottom: 3vh;
+}
+/* fine */
+
+/* Regole css per i link */
+header .header-bottom div {
+    text-align: center;
+}
+
+header .header-bottom a {
+    text-decoration: none;
+    font-size: 1.3rem;
+    padding: 10px 25px;
+    border-radius: 20px;
+}
+
+a.margin-r {
+    margin-right: 1vw;
+    background-color: white;
+}
+
+a.margin-l {
+    margin-left: 1vw;
+    background-color: #23272a;
 }
 /* fine */
