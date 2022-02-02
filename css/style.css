@@ -22,6 +22,10 @@ body {
 .c-black {
     color: black;
 }
+
+.c-wave {
+    opacity: 0.1;
+}
 /* fine */
 
 /* Regole css hover per i button e link */
@@ -46,8 +50,16 @@ header .header-ul ul li:hover {
     width: 15%;
 }
 
+.w-30 {
+    width: 30%;
+}
+
 .w-70 {
     width: 70%;
+}
+
+.w-50 {
+    width: 50%;
 }
 /* fine */
 
@@ -162,3 +174,33 @@ a.margin-l {
     background-color: #23272a;
 }
 /* fine */
+
+/* Regole css main first section */
+main section {
+    height: 50vh;
+    position: relative;
+}
+
+section .centering {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+main img {
+    width: 100%;
+}
+
+section .aside-txt {
+    margin-top: 3vh;
+}
+
+section .aside-txt h2 {
+    font-size: 3rem;
+    margin-bottom: 1.5vh;
+}
+
+section .aside-txt p {
+    font-size: 1.3rem;
+}
