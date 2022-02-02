@@ -33,13 +33,13 @@ body {
     transform: rotate(180deg);
 }
 
-.second-section {
+.second-section, .fourth-section {
     background-color: #e6e6e6;
 }
 /* fine */
 
 /* Regole css hover per i button e link */
-.header-btn a:hover, .header-bottom a:hover {
+.header-btn a:hover, .header-bottom a:hover, .btn-sc-mac a:hover {
     color: #3161e0;
 }
 
@@ -66,6 +66,10 @@ header .header-ul ul li:hover {
 
 .w-60 {
     width: 60%;
+}
+
+.w-70 {
+    width: 70%;
 }
 /* fine */
 
@@ -182,18 +186,21 @@ a.margin-l {
 /* fine */
 
 /* Regole css main first section */
-main section {
+section {
     height: 70vh;
     position: relative;
 }
 
+/* Regole css per centrare vert. e orizz. il contenuto delle sez. */
 section .centering {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
+/* fine */
 
+/* Regole css dimensionamento img e allineamento */
 main img {
     width: 100%;
 }
@@ -201,7 +208,9 @@ main img {
 section .aside-txt {
     margin-top: 3vh;
 }
+/* fine */
 
+/* Regole css formattazione testi delle sezioni */
 section .aside-txt h2 {
     font-size: 3rem;
     margin-bottom: 1.5vh;
@@ -210,11 +219,64 @@ section .aside-txt h2 {
 section .aside-txt p {
     font-size: 1.3rem;
 }
+/* fine */
 
+/* Regole css aggiunta margine tra img e testo */
 .margin-txt-l {
     margin-left: 10%;
 }
 
 .margin-txt-r {
     margin-right: 10%;
+}
+/* fine */
+
+/* Regole css per la quarta sezione */
+.fourth-section {
+    height: 100vh;
+    position: relative;
+}
+
+section .f-txt {
+    text-align: center;
+}
+
+section .f-txt h2 {
+    font-size: 3rem;
+    margin-bottom: 1.5vh;
+}
+
+section .f-txt p {
+    font-size: 1.3rem;
+}
+
+section h3 {
+    text-align: center;
+    font-size: 1.5rem;
+    position: relative;
+    margin-bottom: 3vh;
+}
+
+.big-p {
+    margin-bottom: 3vh;
+}
+
+.star {
+    width: 40%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -100%);
+}
+
+.btn-sc-mac {
+    text-align: center;
+}
+
+.btn-begin a {
+    text-decoration: none;
+    font-size: 1.3rem;
+    padding: 10px 25px;
+    border-radius: 20px;
+    background-color: #8ea1e1;
 }
