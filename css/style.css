@@ -4,3 +4,105 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* fine */
+
+/* Regole css body */
+body {
+    font-family: Arial;
+    font-size: 16px;
+}
+
+/* fine */
+
+/* Regole css testo */
+.c-white {
+    color: white;
+}
+
+.c-black {
+    color: black;
+}
+
+.tdn {
+    text-decoration: none;
+}
+/* fine */
+
+/* Regole css hover per i button e link */
+a:hover {
+    color: #3161e0;
+}
+
+li:hover {
+    text-decoration: underline;
+}
+/* fine */
+
+/* Regola css per centrare il contenuto */
+.centering {
+    width: 65%;
+    margin: auto;
+}
+/* fine */
+
+/* Regole css per dimensioni */
+.w-15 {
+    width: 15%;
+}
+
+.w-70 {
+    width: 70%;
+}
+/* fine */
+
+/* Regole css per gli elementi flottati */
+.float-l {
+    float: left;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/* fine */
+
+/* Regole css header-top */
+.header-top {
+    height: 6vh;
+    line-height: 6vh;
+    background-color: #3161e0;
+}
+
+/* Regole css per tag img header */
+header .header-logo img {
+    vertical-align: middle;
+}
+/* fine */
+
+/* Regole css lista non ordinata header */
+header .header-ul ul {
+    list-style-type: none;
+    font-size: 0;
+    text-align: center;
+}
+
+header .header-ul ul li {
+    display: inline-block;
+    font-size: 1rem;
+    margin: 0 15px;
+}
+/* fine */
+
+/* Regole css button accedi */
+header .header-btn {
+    text-align: right;
+}
+
+.header-btn a {
+    background-color: white;
+    font-size: 0.8rem;
+    padding: 10px 15px;
+    border-radius: 20px;
+}
+/* fine */
