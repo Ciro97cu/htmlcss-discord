@@ -160,7 +160,7 @@ header .header-btn {
 header .header-bottom { 
     background-image: url(../img/jumbo.png);
     background-size: cover;
-    height: 35vh;
+    height: 50vh;
     position: relative;
 }
 
