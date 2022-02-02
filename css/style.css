@@ -23,6 +23,10 @@ body {
     color: black;
 }
 
+.c-blue {
+    color: #7289da;
+}
+
 .c-wave {
     opacity: 0.1;
     margin-bottom: -0.4vh;
@@ -39,7 +43,7 @@ body {
 /* fine */
 
 /* Regole css hover per i button e link */
-.header-btn a:hover, .header-bottom a:hover, .btn-sc-mac a:hover {
+.header-btn a:hover, .header-bottom a:hover, .btn-sc-mac a:hover, .footer-bottom a:hover {
     color: #3161e0;
 }
 
@@ -56,12 +60,20 @@ header .header-ul ul li:hover {
 /* fine */
 
 /* Regole css per dimensioni */
+.w-12-5 {
+    width: 12.5%;
+}
+
 .w-15 {
     width: 15%;
 }
 
 .w-30 {
     width: 30%;
+}
+
+.w-50 {
+    width: 50%;
 }
 
 .w-60 {
@@ -279,4 +291,75 @@ section h3 {
     padding: 10px 25px;
     border-radius: 20px;
     background-color: #8ea1e1;
+}
+
+/* Regole css footer */
+footer {
+    background-color: #23272a;
+    height: 50vh;
+}
+
+.footer-top .centering {
+    border-bottom: 2px solid #7289da;
+    padding-bottom: 2vh;
+}
+
+footer .float-l-f {
+    float: left;
+    margin-top: 5%;
+    margin-right: 5%;
+}
+
+footer .float-r {
+    float: right;
+    margin-top: 5%;
+}
+
+.footer-top h2 {
+    font-size: 2rem;
+    padding-bottom: 1vh;
+}
+
+footer p, h6 {
+    font-size: 1rem;
+    padding-bottom: 1vh;
+}
+
+footer .flag {
+    height: 1.3vh;
+}
+
+footer img {
+    height: 100%;
+    vertical-align: middle;
+}
+
+.txt-flag{
+    display: inline-block;
+    padding-left: 0.5vw;
+}
+
+.footer-logo, .footer-register {
+    margin-top: 2vh;
+}
+
+.footer-logo {
+    height: 3vh;
+}
+
+
+.float-r-f {
+    float: right;
+}
+
+.footer-register {
+    text-align: right;
+}
+
+.footer-bottom a {
+    background-color: #7289da;
+    font-size: 0.8rem;
+    padding: 10px 15px;
+    border-radius: 20px;
+    text-decoration: none;
 }
