@@ -42,6 +42,21 @@ body {
 }
 /* fine */
 
+/* Regole css font awesome */
+.fas {
+    font-size: 1.3rem;
+}
+
+.fal {
+    font-size: 1rem;
+}
+
+.fam {
+    font-size: 1.3rem;
+    padding-right: 1vw;
+}
+/* fine */
+
 /* Regole css hover per i button e link */
 .header-btn a:hover, .header-bottom a:hover, .btn-sc-mac a:hover, .footer-bottom a:hover {
     color: #3161e0;
@@ -327,6 +342,7 @@ footer p, h6 {
 
 footer .flag {
     height: 1.3vh;
+    margin-bottom: 2vh;
 }
 
 footer img {
@@ -347,6 +363,9 @@ footer img {
     height: 3vh;
 }
 
+.social-logo {
+    height: 1.3vh;
+}
 
 .float-r-f {
     float: right;
