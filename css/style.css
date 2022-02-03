@@ -58,7 +58,7 @@ body {
 /* fine */
 
 /* Regole css hover per i button e link */
-.header-btn a:hover, .header-bottom a:hover, .btn-sc-mac a:hover, .footer-bottom a:hover {
+.header-btn a:hover, .header-bottom a:hover, .btn-sc-mac a:hover, .footer-top p:hover, .footer-bottom a:hover {
     color: #3161e0;
 }
 
@@ -311,7 +311,6 @@ section h3 {
 /* Regole css footer */
 footer {
     background-color: #23272a;
-    height: 50vh;
 }
 
 .footer-top .centering {
@@ -335,9 +334,19 @@ footer .float-r {
     padding-bottom: 1vh;
 }
 
+/* Regole css per resettare formattazione liste */
+footer .footer-top ul {
+    list-style-type: none;
+}
+
+footer .footer-top li a {
+    text-decoration: none;
+}
+/* fine */
+
 footer p, h6 {
     font-size: 1rem;
-    padding-bottom: 1vh;
+    margin-bottom: 1.5vh;
 }
 
 footer .flag {
@@ -365,6 +374,19 @@ footer img {
 
 .social-logo {
     height: 1.3vh;
+}
+
+/* Regole css elementi footer bottom */
+.footer-bottom {
+    height: 10vh;
+    position: relative;
+}
+
+.footer-bottom .centering {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .float-r-f {
